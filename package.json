@@ -6,17 +6,26 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "^2.2.0",
     "expo": "~54.0.20",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
     "react-native": "0.81.5"
   },
   "devDependencies": {
+    "@eslint/js": "^9.38.0",
     "@types/react": "~19.1.0",
-    "typescript": "~5.9.2"
+    "eslint": "^9.38.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.4.0",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.46.2"
   },
   "private": true
 }
